@@ -10,7 +10,7 @@ import java.util.HashSet;
 import java.util.List;
 
 
-@Component
+
 public class StudentRepository {
   private  HashMap<String,Student> students;
    private HashMap<String,Teacher> teachers;
