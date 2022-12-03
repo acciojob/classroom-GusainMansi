@@ -19,11 +19,11 @@ public class StudentService {
         studentRepository.addTeacher(d);
     }
 
-    public void createMovieDirectorPair(String student, String teacher){
+    public void createStudentTeacher(String student, String teacher){
         studentRepository.addTeacherStudent(student, teacher);
     }
 
-    public Student findMovie(String studentName){
+    public Student findStudent(String studentName){
         return studentRepository.findStudent(studentName);
     }
 
